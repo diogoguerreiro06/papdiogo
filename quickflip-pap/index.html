@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Flip - Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/quickfliplogo.png" alt="Logo Quick Flip" class="logo">
+        <div class="search-filter-container">
+            <input type="text" placeholder="O que está à procura" name="search" class="search-input">
+            <select name="category" class="filter">
+                <option value="">Categoria</option>
+                <option value="clothing">Roupa</option>
+                <option value="electronics">Eletrónicos</option>
+                <option value="furniture">Mobília</option>
+        
+            </select>
+            <select name="condition" class="filter">
+                <option value="">Condição</option>
+                <option value="perfect">Perfeito</option>
+                <option value="very good">Muito Bom</option>
+                <option value="good">Bom</option>
+                <option value="ok">Ok</option>
+            </select>
+            <select name="price-range" class="filter">
+                <option value="">Preço</option>
+                <option value="0-50">Até 50 EUR</option>
+                <option value="51-100">51 a 100 EUR</option>
+                <option value="101-500">101 a 500 EUR</option>
+               
+            </select>
+            <button type="submit" class="search-button">Buscar</button>
+        </div>
+        
+        <nav class="user-options">
+            <a href="#" class="user-link">Chat</a>
+            <a href="#" class="user-link">Favoritos</a>
+            <a href="login.html" class="user-link">Login</a>
+            <a href="signin.html" class="user-link">Registrar</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h1>Bem-vindo ao Quick Flip</h1>
+        <p>Encontre as melhores ofertas em artigos de segunda mão.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
